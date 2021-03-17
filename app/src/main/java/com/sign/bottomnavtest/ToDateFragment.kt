@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.DatePicker
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.fragment_between_dates.*
 import kotlinx.android.synthetic.main.fragment_to_date.*
 
@@ -27,7 +29,6 @@ class ToDateFragment : Fragment() {
         dateNow = InitCurrentDate.instance
         return inflater.inflate(R.layout.fragment_to_date, container, false)
     }
-
 
     private fun datePickerListener(){
         Log.d("TEST","RUNABLE")

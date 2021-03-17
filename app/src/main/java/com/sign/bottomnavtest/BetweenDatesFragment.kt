@@ -1,11 +1,13 @@
 package com.sign.bottomnavtest
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.DatePicker
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_between_dates.*
 
 
@@ -26,7 +28,6 @@ class BetweenDatesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         datePickerListener()
     }
-
 
     private fun datePickerListener(){
         date_picker1?.init(firstDate.year,firstDate.month-1,firstDate.day,

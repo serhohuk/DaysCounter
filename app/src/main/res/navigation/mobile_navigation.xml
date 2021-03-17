@@ -7,11 +7,9 @@
     <fragment
         android:id="@+id/toDateFragment"
         android:name="com.sign.bottomnavtest.ToDateFragment"
-        android:label="fragment_to_date"
         tools:layout="@layout/fragment_to_date" />
     <fragment
         android:id="@+id/betweenDatesFragment"
         android:name="com.sign.bottomnavtest.BetweenDatesFragment"
-        android:label="fragment_between_dates"
         tools:layout="@layout/fragment_between_dates" />
 </navigation>

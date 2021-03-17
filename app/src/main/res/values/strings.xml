@@ -1,16 +1,8 @@
 <resources>
-    <string name="app_name">BottomNavTest</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="app_name">Days Counter</string>
     <string name="to_date">To Date</string>
     <string name="days_between">Days Between</string>
     <string name="time_passed_until">TIME PASSED / UNTIL</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="years_month_days_string">Years  0  Months  0  Days  0</string>
     <string name="total">TOTAL:</string>
     <string name="months">MONTHS</string>
