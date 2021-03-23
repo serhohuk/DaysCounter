@@ -35,7 +35,7 @@ class TimeBetweenDates(toDate:DateValue){
 
     private fun initialization(){
         daysBetween = Days.daysBetween(fromDateString,toDateString).days
-        months = getMonthsNumber()
+        months = Months.monthsBetween(fromDateString,toDateString).months
         weeks = Math.abs(daysBetween!!) /DAYS_IN_WEEK
         days = Math.abs(daysBetween!!)
         hours = days*HOURS_IN_DAY
